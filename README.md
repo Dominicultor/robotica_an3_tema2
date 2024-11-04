@@ -26,3 +26,11 @@ Dicționarul jocului conține o listă de cuvinte prestabilite care sunt afișat
 - 5x Rezistoare (3x 220 ohm, 2x 2000 ohm)
 - Breadbord
 - Fire de legătură
+
+## Poze ale setup-ului fizic
+
+![WhatsApp Image 2024-11-04 at 19 26 23_36225193](https://github.com/user-attachments/assets/b7bc3da7-7e01-4420-9e6e-1da8d1cc91e8)
+![WhatsApp Image 2024-11-04 at 19 26 23_32ca9ec9](https://github.com/user-attachments/assets/c1f84788-5673-4ce6-ab09-45b706ffccda)
+![WhatsApp Image 2024-11-04 at 19 26 22_c8365b3d](https://github.com/user-attachments/assets/68209922-db52-43e0-8428-86f143447c4f)
+![WhatsApp Image 2024-11-04 at 19 26 22_b93148c1](https://github.com/user-attachments/assets/cd3bcae2-7a9d-4d8f-be45-1de459f446bd)
+
