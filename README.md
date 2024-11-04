@@ -36,6 +36,6 @@ Dicționarul jocului conține o listă de cuvinte prestabilite care sunt afișat
 
 
 ## Video cu functionalitatea montajului fizic
-[Watch video here!]([https://youtu.be/yDOoSeVnga8](https://youtu.be/372jr29r4Q4))
+[Watch video here!](https://youtu.be/372jr29r4Q4)
 
 
