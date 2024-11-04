@@ -39,3 +39,9 @@ Dicționarul jocului conține o listă de cuvinte prestabilite care sunt afișat
 [Watch video here!](https://youtu.be/372jr29r4Q4)
 
 
+## Schema electrică TinkerCAD
+
+![Screenshot 2024-11-04 193102](https://github.com/user-attachments/assets/b50a1ddd-3e36-47f0-af78-3a835562e4bf)
+
+![Screenshot 2024-11-04 201649](https://github.com/user-attachments/assets/107f46af-20fa-4ef3-8534-36f542804a9d)
+
