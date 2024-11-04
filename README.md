@@ -3,8 +3,11 @@
 
 ## Descriere Generală
 Acest proiect Arduino implementează un joc de tastat care consta în introducerea literelor unui cuvânt afișat pe Serial Monitor, într-un interval de timp limitat. 
+
 Jocul include trei niveluri de dificultate care ajustează timpul permis pentru a tasta fiecare cuvânt.
+
 Utilizatorul controlează jocul prin două butoane – unul pentru a porni/opri jocul și altul pentru a schimba nivelul de dificultate. 
+
 LED-uri sunt folosite pentru a indica starea jocului:
 
 - LED-ul roșu se aprinde la o tastare incorectă,
