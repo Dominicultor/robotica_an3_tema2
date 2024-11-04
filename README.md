@@ -13,6 +13,7 @@ LED-uri sunt folosite pentru a indica starea jocului:
 - LED-ul roșu se aprinde la o tastare incorectă,
 - LED-ul verde indică progresul corect al jocului,
 - LED-ul pâlpâie alb în timpul unei numărători inverse la începutul fiecărei runde.
+
 Dicționarul jocului conține o listă de cuvinte prestabilite care sunt afișate în ordine aleatorie.
 În fiecare rundă, utilizatorul trebuie să tasteze literele fiecărui cuvânt într-un timp limitat, obținând puncte pentru fiecare cuvânt completat corect.
 
