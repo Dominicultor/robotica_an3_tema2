@@ -84,10 +84,15 @@ void startGame() {
 
     // Amestecă cuvintele din dicționar aleatoriu
     for (int i = DICTIONARY_SIZE - 1; i > 0; i--) {
-      int j = random(i + 1); // Obține un index aleatoriu
-      const char* temp = dictionary[i];
-      dictionary[i] = dictionary[j];
-      dictionary[j] = temp;
+
+        
+      int r = random(i + 1); // Obține un index aleatoriu
+        
+      const char* t = dictionary[i];
+        
+      dictionary[i] = dictionary[r];
+        
+      dictionary[r] = t;
     }
 
     currentWord = 0; // Resetează indexul cuvântului
@@ -147,6 +152,7 @@ void round_f() {
         currentWord++;
         previousWordMillis = currentMillis;
       } 
+          
       
       else if (currentMillis - previousWordMillis >= word_interval || jumpword) { // Sarim peste cuvant daca e finalizat sau a expirat timpul
         Serial.println(dictionary[currentWord]);
@@ -156,6 +162,7 @@ void round_f() {
         Current_letter = 0;
         greseala = false; // Resetează indicatorul de eroare
       }
+        
     } 
     else {
       // Sfârșitul rundei
@@ -228,6 +235,7 @@ void loop() {
     if (dificultate_schimbata) { // Dacă s-a schimbat dificultatea
       delay(200);
       dificultate_schimbata = false;
+        
       switch (dificultate) { // Setează intervalul în funcție de dificultate
         case 1:
           word_interval = 10000;
@@ -243,6 +251,9 @@ void loop() {
           break;
       }
     }
+
+
+      
     if (buton_Start == LOW && !jocul_a_inceput) { // Dacă se apasă butonul de start
       Serial.println("Start button pressed!");
       buton_Start = 1;
